@@ -99,4 +99,28 @@ Run the command "git commit -m "initial commit"
 
 #### 10. What is your opinion of pair programming from what you've heard so far? Include some potential benefits or cons of pair programing.
 
+#### 11. Javascript is a dynamically typed language - what does this mean?
+
+// your answer
+
+// googled answer
+
+#### 12. First, name 4 of the primitive data types in Javascript, then, write which javascript data type is not a primitive and why/what this means.
+
+#### 13. In your own words, try to explain what a variable is. 
+
+#### 14. A function is provided for you below. First, alter the function so that your name would be logged out. Then, create a similar function that logs out a person's name and age.
+
+```js
+
+var myname = "name"
+
+function printYourName(x){
+    console.log("Hello " + x + "!")
+}
+
+printYourName(myname)
+
+```
+
 
