@@ -7,7 +7,7 @@ Try your best to answer each question on your own before looking up the answer o
 #### 1. Describe what "if" does in Javascript.
 
 
-#### 2. Name the data types in Javascript.
+#### 2. What is a closure, and what is it used for?
 
 
 [Your Answer]
