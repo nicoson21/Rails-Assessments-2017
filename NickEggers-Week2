@@ -10,8 +10,6 @@ If is a function that returns a Boolean. You can expand off a IF function with a
 
 
 #### 2. What is a closure, and what is it used for?
-
-
 [Your Answer]
 function that has access to outer functions in which it is not nested in.
 
@@ -37,12 +35,12 @@ JSON is a syntax for storing and exchanging data.
 JSON is text, written with JavaScript object notation.
 
 #### 5. Write about yourself in an object, giving at least three properties of you. Then store your object in a variable with your name.
-
+var nick = {name:"Nick", age:"27", height:"73in"}
 
 #### 6. Explain what an "event" is (within the context of a webpage).
 
 //Your Answer
-
+An event is when something interactive occurs on the page. This can have a JS action attached to it which acts as a event listener and will execute once the specified event takes place.
 //Googled Answer
 
 #### 7. What's the difference between =, ==, and === in JavaScript?
@@ -59,6 +57,7 @@ JSON is text, written with JavaScript object notation.
 
 var newArray = [1, "4", "echo", true, "green"]
 
+console.log(newArray[1][4]);
 ```
 
 #### 9. List the different kinds of javascript loops and describe what they do.
@@ -66,7 +65,10 @@ var newArray = [1, "4", "echo", true, "green"]
 //Your Answer
 
 //Googled Answer
-
+for - loops through a block of code a number of times
+for/in - loops through the properties of an object
+while - loops through a block of code while a specified condition is true
+do/while - also loops through a block of code while a specified condition is true
 
 #### 10. How would you explain "scope" in javascript?
 
