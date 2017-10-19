@@ -6,24 +6,35 @@ Try your best to answer each question on your own before looking up the answer o
 
 #### 1. Describe what "if" does in Javascript.
 
+If is a function that returns a Boolean. You can expand off a IF function with a else, else if, and more.
+
 
 #### 2. What is a closure, and what is it used for?
 
 
 [Your Answer]
-
+function that has access to outer functions in which it is not nested in.
 
 [Googled Answer]
-
+A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.
 
 #### 3. Write a function that takes one number as a parameter and decides if that number is divisble by three or not. If it is, print the number and "is divisible by three". If it is not, print that the number "is not divisble by three".
+
+If (x % 3 = 0) {
+ console.log( x +" is divisible by three");
+ } else {
+ console.log( x +" is not divisble by three")
+ }
 
 
 #### 4. What is JSON?
 
 //Your Answer
+syntax that allows users to transmit data objects
 
 //Googled Answer
+JSON is a syntax for storing and exchanging data.
+JSON is text, written with JavaScript object notation.
 
 #### 5. Write about yourself in an object, giving at least three properties of you. Then store your object in a variable with your name.
 
@@ -37,6 +48,7 @@ Try your best to answer each question on your own before looking up the answer o
 #### 7. What's the difference between =, ==, and === in JavaScript?
 
 //Your Answer
+= is used for declaring. == is equal but not as strict in terms of data types as ===
 
 //Googled Answer
 
@@ -59,7 +71,7 @@ var newArray = [1, "4", "echo", true, "green"]
 #### 10. How would you explain "scope" in javascript?
 
 //Your Answer
-
+scope is like how something is able to be viewed within the file. There is Global and local scope. global will allow you to see it throughout the entire whereas local scope is going to be limited to the area in which you enclose it.
 //Googled Answer
 
 
